@@ -1,0 +1,22 @@
+{
+    "name": "api/helper",
+    "description": "n/a",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmed Ali",
+            "email": "ahmed.ali@arpatech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Api\\Helper\\": "src/"
+        },
+        "files": [
+            "src/Helpers/helpers.php"
+        ]
+    },
+    "require": {}
+}
