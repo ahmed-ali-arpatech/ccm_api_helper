@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Api\\Helper\\' => array($baseDir . '/src'),
+    'Ccmapi\\Helper\\' => array($baseDir . '/src'),
 );

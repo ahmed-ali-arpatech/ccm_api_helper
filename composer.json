@@ -1,5 +1,5 @@
 {
-    "name": "api/helper",
+    "name": "ccmapi/helper",
     "description": "n/a",
     "type": "library",
     "license": "MIT",
@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Api\\Helper\\": "src/"
+            "Ccmapi\\Helper\\": "src/"
         },
         "files": [
             "src/Helpers/helpers.php"
