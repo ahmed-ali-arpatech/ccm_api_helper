@@ -10,6 +10,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Ccmapi\\Helper\\": "src/"
@@ -18,5 +19,8 @@
             "src/Helpers/helpers.php"
         ]
     },
-    "require": {}
+    "require": {
+        "brozot/laravel-fcm": "^1.2",
+        "sendgrid/sendgrid": "^7.8"
+    }
 }
